@@ -109,7 +109,7 @@ fun BackgroundImages(viewModel: MainViewModel) {
 
     val targetState : Int by viewModel.currentImagePosition.observeAsState(0)
 
-    Crossfade(targetState = targetState, animationSpec = tween(3000)) { state ->
+    Crossfade(targetState = targetState, animationSpec = tween(1000)) { state ->
         Box(
             modifier = Modifier
                 .padding(bottom = 20.dp)

@@ -44,6 +44,5 @@ fun LockScreenApp(viewModel: MainViewModel) {
 }
 
 //todo remove hardcoded values
-//todo manage the code
 //todo add unit test cases
 //todo add description for navigation, animation, and unit test cases
